@@ -32,9 +32,11 @@
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Howdy, I'm <strong>Eli Brown</strong>.</h1>
+								<h1>Howdy, I'm <strong>Eli Brown</strong>. In my free time,
+								I like <span id="element"></span></h1>
+								<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 							</header>
-							<p>Welcome to my <strong>Portfolio.</strong></a>
+							<p>Welcome to my <strong>portfolio.</strong></a>
 						</div>
 					</div>
 				</div>
@@ -203,6 +205,13 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+			<script>
+				var typed = new Typed('#element', {
+				  strings: ['<i>running</i>.', '&amp; hiking.'],
+				  typeSpeed: 50,
+				});
+			</script>
 
 	</body>
 </html>
